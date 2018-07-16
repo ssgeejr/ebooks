@@ -1,0 +1,9 @@
+@echo off
+
+set pushkey=%date:~4,2%%date:~7,2%%date:~10,4%%time:~0,2%%time:~3,2%%time:~6,2%
+echo 'Pushkey set to: %pushkey%'
+git add .
+git commit -m "command script development push to master with key: %pushkey%"
+git push origin master
+
+
