@@ -1,0 +1,7 @@
+# https://github.com/pages-themes/minimal
+title: Free Development E-Books
+logo: /assets/img/komainu.png
+description: Free development e-books, free as in 'beer'
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
